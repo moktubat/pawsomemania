@@ -1,3 +1,4 @@
+import logo from "../../../../assets/logo.png";
 import { Link, NavLink } from "react-router-dom";
 import { HiOutlineBars3BottomRight } from "react-icons/hi2";
 import { FaXmark } from "react-icons/fa6";
@@ -79,8 +80,9 @@ const NavBar = () => {
       <div className="relative flex items-center justify-between">
         {/* Logo Section */}
         <Link to="/" className="inline-flex items-center">
-          <span className="ml-2 text-xl font-bold tracking-wide text-[#FFED00]">
-            absMania
+          <img src={logo} className="w-[42px]" alt="logo" />
+          <span className="ml-2 text-xl font-bold tracking-wide text-[#f86ca7]">
+            PawSome <br /> Mania
           </span>
         </Link>
 
@@ -103,7 +105,7 @@ const NavBar = () => {
                 <div className="flex items-center justify-between mb-4">
                   <div>
                     <Link to="/" className="inline-flex items-center">
-                      <span className="ml-2 text-xl font-bold tracking-wide text-[#FFED00] uppercase">
+                      <span className="ml-2 text-xl font-bold tracking-wide text-[#f86ca7] uppercase">
                         absMania
                       </span>
                     </Link>
@@ -115,7 +117,7 @@ const NavBar = () => {
                       title="Close Menu"
                       onClick={() => setIsMenuOpen(false)}
                     >
-                      <FaXmark className="w-5 text-[#FFED00]" />
+                      <FaXmark className="w-5 text-[#f86ca7]" />
                     </button>
                   </div>
                 </div>

@@ -9,11 +9,11 @@ body {
 }
 
 .active {
-  @apply font-medium tracking-wide text-[#FFED00] transition-colors duration-200 underline-offset-8 underline;
+  @apply font-semibold tracking-wide text-[#f86ca7] transition-colors duration-200 underline-offset-8 underline;
 }
 
 .default {
-  @apply font-medium tracking-wide text-white transition-colors duration-200 hover:text-yellow-400;
+  @apply font-semibold tracking-wide text-[#001d23] transition-colors duration-200 hover:text-[#f86ca7];
 }
 
 .title{

@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="w-full py-8 bg-[#fff5ed] bg-no-repeat bg-cover" style={{ backgroundImage: `url(${footerBg})` }}>
+    <div className="w-full py-8 bg-no-repeat bg-cover" style={{ backgroundImage: `url(${footerBg})` }}>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center items-center mb-8">
         <div>
           <h3 className="gradient">Contacts</h3>
