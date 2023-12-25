@@ -1,3 +1,4 @@
+import footerBg from "../../../../assets/footerBg.png"
 import { MdEmail, MdLocationPin, MdOutlinePhoneInTalk } from "react-icons/md";
 import {
   FaFacebookF,
@@ -8,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="w-full">
+    <div className="w-full py-8 bg-[#fff5ed] bg-no-repeat bg-cover" style={{ backgroundImage: `url(${footerBg})` }}>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center items-center mb-8">
         <div>
           <h3 className="gradient">Contacts</h3>
@@ -86,7 +87,7 @@ const Footer = () => {
         </div>
       </div>
         <hr />
-      <div className="mt-8 font-semibold">
+      <div className="my-8 font-semibold">
         <div className="flex justify-around">
         <p> © All rights reserved & design with love by Moktubat</p>
         <div className="flex gap-20">
