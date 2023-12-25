@@ -1,3 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;700&family=Outfit:wght@300;400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Dosis", sans-serif;
+}
+
+.title{
+  @apply text-[#001d23] text-4xl font-extrabold leading-tight tracking-wide;
+}
+.gradient {
+  @apply text-2xl font-bold bg-gradient-to-r from-[#f86ca7] to-[#ff7f18] inline-block text-transparent bg-clip-text;
+}
+
+.btn_pmry{
+  
+}
