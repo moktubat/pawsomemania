@@ -14,11 +14,11 @@ const Banner = () => {
               taking care for,
             </h1>
             <p className="text-[#253d4e] text-7xl font-bold">
-              your <span className="text-[#ff553c]">Smart Dog</span> !
+              your <span className="text-[#ff553c]">Smart Pet</span> !
             </p>
             <p className="py-8 text-[#253d4e] text-lg font-semibold">
-              Your Pet is Part of Our Family.<br />Human–canine bonding is the
-              relationship between dogs and humans.
+              Your <span className="text-[#ff553c]">Pet</span> is Part of Our Family.<br />Human–canine bonding is the
+              relationship between pets and humans.
             </p>
             <div className="flex gap-6">
               <button className="relative inline-block text-lg group">

@@ -20,7 +20,7 @@ body {
   @apply text-[#001d23] text-4xl font-extrabold leading-tight tracking-wide;
 }
 .gradient {
-  @apply text-2xl font-bold bg-gradient-to-r from-[#f86ca7] to-[#ff7f18] inline-block text-transparent bg-clip-text;
+  @apply font-bold bg-gradient-to-r from-[#f86ca7] to-[#ff7f18] inline-block text-transparent bg-clip-text;
 }
 
 .btn_pmry{

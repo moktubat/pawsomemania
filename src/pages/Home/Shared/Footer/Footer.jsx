@@ -12,7 +12,7 @@ const Footer = () => {
     <div className="w-full py-8 bg-no-repeat bg-cover" style={{ backgroundImage: `url(${footerBg})` }}>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center items-center mb-8">
         <div>
-          <h3 className="gradient">Contacts</h3>
+          <h3 className="gradient text-2xl">Contacts</h3>
           <div className="font-semibold flex items-center gap-2 mt-8 text-[#253d4e] tracking-wide">
             <div>
               <MdOutlinePhoneInTalk className="text-3xl" />
@@ -72,7 +72,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <h3 className="gradient">Opening Hours</h3>
+          <h3 className="gradient text-2xl">Opening Hours</h3>
           <div className="font-semibold text-[#253d4e]">
             <p className="mt-8">Mon - Fri: 9.00AM - 6.00PM</p>
             <p className="mt-8">Saturday: 9.00AM - 6.00PM</p>

@@ -27,26 +27,18 @@ const NavBar = () => {
       </li>
       <li>
         <NavLink
-          to="/workouts"
+          to="/services"
           className={({ isActive }) => (isActive ? "active" : "default")}
         >
-          Workout Programs
+          Services
         </NavLink>
       </li>
       <li>
         <NavLink
-          to="/recipes"
+          to="/Products"
           className={({ isActive }) => (isActive ? "active" : "default")}
         >
-          Recipes
-        </NavLink>
-      </li>
-      <li>
-        <NavLink
-          to="/store"
-          className={({ isActive }) => (isActive ? "active" : "default")}
-        >
-          Store
+          Products
         </NavLink>
       </li>
       <li>
@@ -76,7 +68,7 @@ const NavBar = () => {
     </>,
   ];
   return (
-    <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-2">
       <div className="relative flex items-center justify-between">
         {/* Logo Section */}
         <Link to="/" className="inline-flex items-center">
@@ -96,17 +88,17 @@ const NavBar = () => {
             title="Open Menu"
             onClick={() => setIsMenuOpen(true)}
           >
-            <HiOutlineBars3BottomRight className="w-8 text-white" />
+            <HiOutlineBars3BottomRight className="w-8 text-[#f86ca7]" />
           </button>
           {isMenuOpen && (
             <div className="absolute top-0 left-0 w-full z-10">
-              <div className="p-5 bg-black border rounded shadow-sm">
+              <div className="p-5 bg-white border rounded shadow-sm">
                 {/* Logo & Button section */}
                 <div className="flex items-center justify-between mb-4">
                   <div>
                     <Link to="/" className="inline-flex items-center">
-                      <span className="ml-2 text-xl font-bold tracking-wide text-[#f86ca7] uppercase">
-                        absMania
+                      <span className="text-xl font-bold tracking-wide text-[#f86ca7]">
+                      PawSome <br /> Mania
                       </span>
                     </Link>
                   </div>

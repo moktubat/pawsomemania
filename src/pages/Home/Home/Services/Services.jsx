@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <div className="m-12">
       <div className="flex items-center justify-between">
-        <h1 className="text-[#253d4e] text-2xl font-semibold">Our Services</h1>
+        <h1 className="text-[#253d4e] text-4xl font-bold border-b-4 border-[#ff553c]">Our Services</h1>
       </div>
       <div>
         <Swiper
@@ -56,7 +56,7 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              <h4 className="text-[#253d4e] text-2xl font-bold my-2">
+              <h4 className="gradient text-2xl font-bold my-2">
                 Grooming
               </h4>
               <p className="text-[#253d4e] font-semibold">
@@ -90,7 +90,7 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              <h4 className="text-[#253d4e] text-2xl font-bold my-2">
+              <h4 className="gradient text-2xl font-bold my-2">
                 Healthcare
               </h4>
               <p className="text-[#253d4e] font-semibold">
@@ -140,7 +140,7 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              <h4 className="text-[#253d4e] text-2xl font-bold my-2">
+              <h4 className="gradient text-2xl font-bold my-2">
                 Daycare
               </h4>
               <p className="text-[#253d4e] font-semibold">
@@ -190,7 +190,7 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              <h4 className="text-[#253d4e] text-2xl font-bold my-2">
+              <h4 className="gradient text-2xl font-bold my-2">
                 Training
               </h4>
               <p className="text-[#253d4e] font-semibold">
@@ -272,7 +272,7 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              <h4 className="text-[#253d4e] text-2xl font-bold my-2">
+              <h4 className="gradient text-2xl font-bold my-2">
                 Hyginic care
               </h4>
               <p className="text-[#253d4e] font-semibold">
