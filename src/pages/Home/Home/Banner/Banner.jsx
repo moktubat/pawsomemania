@@ -1,4 +1,8 @@
+import { FaStar, FaTruck } from "react-icons/fa";
+import { BsShop } from "react-icons/bs";
+
 import banner from "../../../../assets/hero.jpg";
+import { MdOutlineMessage } from "react-icons/md";
 const Banner = () => {
   return (
     <div>
@@ -10,15 +14,17 @@ const Banner = () => {
             loading=" lazy"
           />
           <div className="md:w-1/2">
-            <h1 className="text-[#253d4e] text-6xl font-light pb-3">
+            <h1 className="text-[#253d4e] text-5xl md:text-6xl font-light pb-3">
               taking care for,
             </h1>
-            <p className="text-[#253d4e] text-7xl font-bold">
+            <p className="text-[#253d4e] text-5xl md:text-7xl font-bold">
               your <span className="text-[#ff553c]">Smart Pet</span> !
             </p>
             <p className="py-8 text-[#253d4e] text-lg font-semibold">
-              Your <span className="text-[#ff553c]">Pet</span> is Part of Our Family.<br />Human–canine bonding is the
-              relationship between pets and humans.
+              Your <span className="text-[#ff553c]">Pet</span> is Part of Our
+              Family.
+              <br />
+              Human–canine bonding is the relationship between pets and humans.
             </p>
             <div className="flex gap-6">
               <button className="relative inline-block text-lg group">
@@ -44,6 +50,41 @@ const Banner = () => {
                 ></span>
               </button>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="mx-4 md:mx-12">
+        <div className="grid grid-cols-2 gap-10 mt-10 md:flex md:justify-between">
+          <div className="flex items-center gap-3">
+            <FaTruck className="w-8 h-8 text-[#ff553c]" />
+            <p className="text-[#253d4e] font-semibold">
+              Same day delivery <br /> for order before 11:00h!
+            </p>
+          </div>
+          <div className="flex items-center gap-3">
+            <BsShop className="w-8 h-8 text-[#ff553c]" />
+            <p className="text-[#253d4e] font-semibold">
+              Free pick up from <br /> 1000S 8th Avenue, NY!
+            </p>
+          </div>
+          <div className="flex items-center gap-3">
+            <FaStar className="w-8 h-8 text-[#ff553c]" />
+            <p className="text-[#253d4e] font-semibold">
+              Rating 4.8/5! <br /> from verified users.
+            </p>
+          </div>
+          <div className="flex items-center gap-3">
+            <FaStar className="w-8 h-8 text-[#ff553c]" />
+            <p className="text-[#253d4e] font-semibold">
+              Call us in 09:00-16:00h <br />{" "}
+              <a href="tel:+1-800-356-8933">1-800-356-8933</a>.
+            </p>
+          </div>
+          <div className="flex items-center gap-3">
+            <MdOutlineMessage className="w-8 h-8 text-[#ff553c]" />
+            <p className="text-[#253d4e] font-semibold">
+              Message us, <br /> respond same day!
+            </p>
           </div>
         </div>
       </div>

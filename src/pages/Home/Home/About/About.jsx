@@ -609,21 +609,25 @@ const About = () => {
           </div>
           <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div className="mt-10 lg:mt-0">
-              <h2 className="mb-8 text-3xl gradient sm:text-4xl">
-                Professional And Dedicated Consulting Solutions.
+              <h2 className="mb-4 md:mb-8 text-3xl gradient sm:text-4xl">
+                We are The Best For <br /> Your Pet Care.
               </h2>
               <p className="mb-8 font-semibold text-body-color">
-                Welcome to <span className="text-[#ff553c]">PawsomeMania</span>, where our passion for pets meets the
-                spirit of community! At <span className="text-[#ff553c]">PawsomeMania</span>, we believe that the bond
-                between humans and their furry companions is truly special, and
-                we&apos;re dedicated to enhancing that connection by providing a
-                platform that caters to all your pet-related needs. <br />
-                At the heart of <span className="text-[#ff553c]">PawsomeMania</span> is a mission to create a thriving
-                ecosystem that brings together pet lovers, responsible breeders,
-                trusted service providers, and adoptable pets. We&apos;re
-                committed to fostering a community where the well-being of
-                animals takes center stage, and where every pet finds a loving
-                home.
+                Welcome to <span className="text-[#ff553c]">PawsomeMania</span>,
+                where our passion for pets meets the spirit of community! At{" "}
+                <span className="text-[#ff553c]">PawsomeMania</span>, we believe
+                that the bond between humans and their furry companions is truly
+                special, and we&apos;re dedicated to enhancing that connection
+                by providing a platform that caters to all your pet-related
+                needs. <br />
+                <br />
+                At the heart of{" "}
+                <span className="text-[#ff553c]">PawsomeMania</span> is a
+                mission to create a thriving ecosystem that brings together pet
+                lovers, responsible breeders, trusted service providers, and
+                adoptable pets. We&apos;re committed to fostering a community
+                where the well-being of animals takes center stage, and where
+                every pet finds a loving home.
               </p>
 
               <button className="relative inline-block text-lg group">
