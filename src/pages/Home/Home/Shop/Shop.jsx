@@ -5,6 +5,7 @@ import fish from "../../../../assets/fish.webp";
 import bird from "../../../../assets/bird.webp";
 import reptile from "../../../../assets/reptile.webp";
 import { Tab } from "@headlessui/react";
+import { FaCartPlus } from "react-icons/fa";
 
 const Shop = () => {
   return (
@@ -16,7 +17,7 @@ const Shop = () => {
           </h1>
         </div>
         <div className="my-10 grid grid-cols-2 gap-10 md:flex md:justify-between">
-          <div className="group relative text-[#253d4e] hover:text-white shadow-md rounded-lg hover:bg-gradient-to-r from-[#f86ca7] to-[#ff7f18]">
+          <div className="group relative text-[#253d4e] bg-base-100 hover:text-white shadow-md rounded-lg hover:bg-gradient-to-r from-[#f86ca7] to-[#ff7f18]">
             <img
               src={dog}
               className="w-32 h-40 object-center object-contain group-hover:scale-110 transition-transform duration-300"
@@ -24,7 +25,7 @@ const Shop = () => {
             />
             <p className="text-center text-2xl font-bold my-2">Dog</p>
           </div>
-          <div className="group relative text-[#253d4e] hover:text-white shadow-md rounded-lg hover:bg-gradient-to-r from-[#f86ca7] to-[#ff7f18]">
+          <div className="group relative text-[#253d4e] bg-base-100 hover:text-white shadow-md rounded-lg hover:bg-gradient-to-r from-[#f86ca7] to-[#ff7f18]">
             <img
               src={cat}
               className="w-32 h-40 object-center object-contain group-hover:scale-110 transition-transform duration-300"
@@ -32,7 +33,7 @@ const Shop = () => {
             />
             <p className="text-center text-2xl font-bold my-2">Cat</p>
           </div>
-          <div className="group relative text-[#253d4e] hover:text-white shadow-md rounded-lg hover:bg-gradient-to-r from-[#f86ca7] to-[#ff7f18]">
+          <div className="group relative text-[#253d4e] bg-base-100 hover:text-white shadow-md rounded-lg hover:bg-gradient-to-r from-[#f86ca7] to-[#ff7f18]">
             <img
               src={rabbit}
               className="w-32 h-40 object-center object-contain group-hover:scale-110 transition-transform duration-300"
@@ -40,7 +41,7 @@ const Shop = () => {
             />
             <p className="text-center text-2xl font-bold my-2">Rabbit</p>
           </div>
-          <div className="group relative text-[#253d4e] hover:text-white shadow-md rounded-lg hover:bg-gradient-to-r from-[#f86ca7] to-[#ff7f18]">
+          <div className="group relative text-[#253d4e] bg-base-100 hover:text-white shadow-md rounded-lg hover:bg-gradient-to-r from-[#f86ca7] to-[#ff7f18]">
             <img
               src={fish}
               className="w-32 h-40 object-center object-contain group-hover:scale-110 transition-transform duration-300"
@@ -48,7 +49,7 @@ const Shop = () => {
             />
             <p className="text-center text-2xl font-bold my-2">Fish</p>
           </div>
-          <div className="group relative text-[#253d4e] hover:text-white shadow-md rounded-lg hover:bg-gradient-to-r from-[#f86ca7] to-[#ff7f18]">
+          <div className="group relative text-[#253d4e] bg-base-100 hover:text-white shadow-md rounded-lg hover:bg-gradient-to-r from-[#f86ca7] to-[#ff7f18]">
             <img
               src={bird}
               className="w-32 h-40 object-center object-contain group-hover:scale-110 transition-transform duration-300"
@@ -56,7 +57,7 @@ const Shop = () => {
             />
             <p className="text-center text-2xl font-bold my-2">Bird</p>
           </div>
-          <div className="group relative text-[#253d4e] hover:text-white shadow-md rounded-lg hover:bg-gradient-to-r from-[#f86ca7] to-[#ff7f18]">
+          <div className="group relative text-[#253d4e] bg-base-100 hover:text-white shadow-md rounded-lg hover:bg-gradient-to-r from-[#f86ca7] to-[#ff7f18]">
             <img
               src={reptile}
               className="w-32 h-40 object-center object-contain group-hover:scale-110 transition-transform duration-300"
@@ -95,7 +96,25 @@ const Shop = () => {
               </Tab>
             </Tab.List>
             <Tab.Panels>
-              <Tab.Panel>Content 1</Tab.Panel>
+              <Tab.Panel>
+                <div className="card w-96 bg-base-100 shadow-xl">
+                  <figure>
+                    <img
+                    className="w-[250px] h-[250px]"
+                      src="https://petmania.vamtam.com/wp-content/uploads/2022/07/ignore-export7-426x426.webp"
+                      alt="Shoes"
+                    />
+                  </figure>
+                  <div className="card-body">
+                    <h2 className="card-title">Shoes!</h2>
+                    <p>Rate: *****</p>
+                    <p>Price: 69$</p>
+                    <div className="card-actions justify-end">
+                      <button className="btn btn-primary"><FaCartPlus /></button>
+                    </div>
+                  </div>
+                </div>
+              </Tab.Panel>
               <Tab.Panel>Content 2</Tab.Panel>
               <Tab.Panel>Content 3</Tab.Panel>
               <Tab.Panel>Content 4</Tab.Panel>
