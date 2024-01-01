@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import "./Consultant.css"
+import "./Consultant.css";
 const Consultant = () => {
   const {
     register,
@@ -20,10 +20,10 @@ const Consultant = () => {
         </div>
         <div className="my-10">
           <div>
-            <h1 className="gradient text-5xl">Schedule a Visit Today!</h1>
-            <div>
-              <form onSubmit={handleSubmit(onSubmit)}>
-                <div className="w-1/2 grid grid-cols-2 gap-4 my-6">
+            <div className="md:flex gap-10">
+              <form onSubmit={handleSubmit(onSubmit)} className="md:w-1/2">
+                <h1 className="gradient text-5xl">Schedule a Visit Today!</h1>
+                <div className="grid grid-cols-2 gap-4 my-6">
                   <div className="mb-1">
                     <label
                       className="block text-white text-xl font-bold mb-2"
@@ -153,6 +153,43 @@ const Consultant = () => {
                   ></span>
                 </button>
               </form>
+              <div className="md:w-1/2 mt-12 md:mt-0">
+                <h1 className="gradient text-5xl">
+                  Why Choose Pet Consultation at PawsomeMania?
+                </h1>
+                <div className="my-6">
+                  <p className="text-white font-semibold">
+                    Our commitment to your pet&apos;s well-being goes beyond
+                    products and services. With Pet Consultation at{" "}
+                    <span className="text-[#ff553c]">PawsomeMania</span>,
+                    you&apos;re not just getting advice; you&apos;re gaining a
+                    partner in your pet parenting journey. Trust the experts at{" "}
+                    <span className="text-[#ff553c]">PawsomeMania</span> to
+                    provide the guidance you need for a happy, healthy, and
+                    thriving pet.
+                  </p>
+                  <div className="flex justify-between mt-2">
+                    <div>
+                      <h3 className="gradient text-xl">How It Works:</h3>
+                      <ul className="text-white font-semibold mb-1">
+                        <li>Book a Consultation</li>
+                        <li>Meet the Experts</li>
+                        <li>Share Pet History</li>
+                        <li>Get Personalized Advice</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3 className="gradient text-xl">Unlock the Benefits:</h3>
+                      <ul className="text-white font-semibold mb-1">
+                        <li>Expert Guidance</li>
+                        <li>Health Checkups</li>
+                        <li>Behavioral Insights</li>
+                        <li>Nutritional Counseling</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

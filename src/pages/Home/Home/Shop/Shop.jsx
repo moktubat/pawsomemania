@@ -20,7 +20,7 @@ const Shop = () => {
           <div className="group relative text-[#253d4e] bg-base-50 hover:text-white shadow-md rounded-lg hover:bg-gradient-to-r from-[#f86ca7] to-[#ff7f18]">
             <img
               src={dog}
-              className="w-32 h-40 object-center object-contain group-hover:scale-110 transition-transform duration-300"
+              className="w-32 h-40 object-center object-contain group-hover:scale-125 transition-transform duration-300"
               alt=""
             />
             <p className="text-center text-2xl font-bold my-2">Dog</p>
@@ -28,7 +28,7 @@ const Shop = () => {
           <div className="group relative text-[#253d4e] bg-base-50 hover:text-white shadow-md rounded-lg hover:bg-gradient-to-r from-[#f86ca7] to-[#ff7f18]">
             <img
               src={cat}
-              className="w-32 h-40 object-center object-contain group-hover:scale-110 transition-transform duration-300"
+              className="w-32 h-40 object-center object-contain group-hover:scale-125 transition-transform duration-300"
               alt=""
             />
             <p className="text-center text-2xl font-bold my-2">Cat</p>
@@ -36,7 +36,7 @@ const Shop = () => {
           <div className="group relative text-[#253d4e] bg-base-50 hover:text-white shadow-md rounded-lg hover:bg-gradient-to-r from-[#f86ca7] to-[#ff7f18]">
             <img
               src={rabbit}
-              className="w-32 h-40 object-center object-contain group-hover:scale-110 transition-transform duration-300"
+              className="w-32 h-40 object-center object-contain group-hover:scale-125 transition-transform duration-300"
               alt=""
             />
             <p className="text-center text-2xl font-bold my-2">Rabbit</p>
@@ -44,7 +44,7 @@ const Shop = () => {
           <div className="group relative text-[#253d4e] bg-base-50 hover:text-white shadow-md rounded-lg hover:bg-gradient-to-r from-[#f86ca7] to-[#ff7f18]">
             <img
               src={fish}
-              className="w-32 h-40 object-center object-contain group-hover:scale-110 transition-transform duration-300"
+              className="w-32 h-40 object-center object-contain group-hover:scale-125 transition-transform duration-300"
               alt=""
             />
             <p className="text-center text-2xl font-bold my-2">Fish</p>
@@ -52,7 +52,7 @@ const Shop = () => {
           <div className="group relative text-[#253d4e] bg-base-50 hover:text-white shadow-md rounded-lg hover:bg-gradient-to-r from-[#f86ca7] to-[#ff7f18]">
             <img
               src={bird}
-              className="w-32 h-40 object-center object-contain group-hover:scale-110 transition-transform duration-300"
+              className="w-32 h-40 object-center object-contain group-hover:scale-125 transition-transform duration-300"
               alt=""
             />
             <p className="text-center text-2xl font-bold my-2">Bird</p>
@@ -60,7 +60,7 @@ const Shop = () => {
           <div className="group relative text-[#253d4e] bg-base-50 hover:text-white shadow-md rounded-lg hover:bg-gradient-to-r from-[#f86ca7] to-[#ff7f18]">
             <img
               src={reptile}
-              className="w-32 h-40 object-center object-contain group-hover:scale-110 transition-transform duration-300"
+              className="w-32 h-40 object-center object-contain group-hover:scale-125 transition-transform duration-300"
               alt=""
             />
             <p className="text-center text-2xl font-bold my-2">Reptile</p>
