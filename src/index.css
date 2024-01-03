@@ -23,3 +23,10 @@ body {
   @apply font-bold bg-gradient-to-r from-[#f86ca7] to-[#ff7f18] inline-block text-transparent bg-clip-text;
 }
 
+.shopActive{
+  @apply px-4 py-1 rounded-full text-white font-semibold bg-[#ff553c]
+}
+
+.shopDefault{
+  @apply px-4 py-1 rounded-full text-white font-semibold bg-[#253d4e]
+}

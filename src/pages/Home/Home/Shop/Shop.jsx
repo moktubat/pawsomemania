@@ -76,22 +76,22 @@ const Shop = () => {
         <div>
           <Tab.Group>
             <Tab.List className="my-10 md:mx-64 grid grid-cols-3 md:grid-cols-6 gap-5">
-              <Tab className="px-4 py-1 rounded-full text-white font-semibold bg-[#ff553c]">
+            <Tab className={({ isActive }) => (isActive ? "shopActive" : "shopDefault")}>
                 🐶 Dog
               </Tab>
-              <Tab className="px-4 py-1 rounded-full text-white font-semibold bg-[#253d4e]">
+              <Tab className={({ isActive }) => (isActive ? "shopActive" : "shopDefault")}>
                 🐱 Cat
               </Tab>
-              <Tab className="px-4 py-1 rounded-full text-white font-semibold bg-[#253d4e]">
+              <Tab className={({ isActive }) => (isActive ? "shopActive" : "shopDefault")}>
                 🐰 Rabbit
               </Tab>
-              <Tab className="px-4 py-1 rounded-full text-white font-semibold bg-[#253d4e]">
+              <Tab className={({ isActive }) => (isActive ? "shopActive" : "shopDefault")}>
                 🐠 Fish
               </Tab>
-              <Tab className="px-4 py-1 rounded-full text-white font-semibold bg-[#253d4e]">
+              <Tab className={({ isActive }) => (isActive ? "shopActive" : "shopDefault")}>
                 🐦 Bird
               </Tab>
-              <Tab className="px-4 py-1 rounded-full text-white font-semibold bg-[#253d4e]">
+              <Tab className={({ isActive }) => (isActive ? "shopActive" : "shopDefault")}>
                 🦖 Reptile
               </Tab>
             </Tab.List>

@@ -2,7 +2,12 @@ const Blogs = () => {
   return (
     <div className="m-12">
       <div>
-        <div className="grid grid-cols-1 gap-5 lg:grid-cols-4 sm:grid-cols-2">
+        <div className="flex items-center justify-between">
+          <h1 className="text-[#253d4e] text-4xl font-bold border-b-4 border-[#ff553c]">
+            Tips and Tricks
+          </h1>
+        </div>
+        <div className="grid grid-cols-1 gap-5 lg:grid-cols-4 sm:grid-cols-2 my-10">
           <div
             className="relative flex items-end justify-start w-full text-left bg-center bg-cover h-96 rounded-lg"
             style={{
@@ -33,12 +38,12 @@ const Blogs = () => {
             </h2>
           </div>
           <div
-            className="relative flex items-end justify-start w-full text-left bg-center bg-cover h-96"
+            className="relative flex items-end justify-start w-full text-left bg-center bg-cover h-96 rounded-lg"
             style={{
               backgroundImage: `url("https://source.unsplash.com/random/242x320")`,
             }}
           >
-            <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b via-transparent from-gray-900 to-gray-900"></div>
+            <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b via-transparent from-gray-900 to-gray-900 rounded-lg"></div>
             <div className="absolute top-0 left-0 right-0 flex items-center justify-between mx-5 mt-3">
               <a
                 href="#"
@@ -61,12 +66,12 @@ const Blogs = () => {
             </h2>
           </div>
           <div
-            className="relative flex items-end justify-start w-full text-left bg-center bg-cover h-96"
+            className="relative flex items-end justify-start w-full text-left bg-center bg-cover h-96 rounded-lg"
             style={{
               backgroundImage: `url("https://source.unsplash.com/random/243x320")`,
             }}
           >
-            <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b via-transparent from-gray-900 to-gray-900"></div>
+            <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b via-transparent from-gray-900 to-gray-900 rounded-lg"></div>
             <div className="absolute top-0 left-0 right-0 flex items-center justify-between mx-5 mt-3">
               <a
                 href="#"
@@ -89,12 +94,12 @@ const Blogs = () => {
             </h2>
           </div>
           <div
-            className="relative flex items-end justify-start w-full text-left bg-center bg-cover h-96"
+            className="relative flex items-end justify-start w-full text-left bg-center bg-cover h-96 rounded-lg"
             style={{
               backgroundImage: `url("https://source.unsplash.com/random/243x320")`,
             }}
           >
-            <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b via-transparent from-gray-900 to-gray-900"></div>
+            <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b via-transparent from-gray-900 to-gray-900 rounded-lg"></div>
             <div className="absolute top-0 left-0 right-0 flex items-center justify-between mx-5 mt-3">
               <a
                 href="#"
